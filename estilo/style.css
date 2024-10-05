@@ -45,9 +45,21 @@ iframe#tela {
     height: 471px;
 }
 
+section#aplicativos {
+    text-align: right;
+}
+
 section#aplicativos img {
     width: 50px;
     margin: 10px;
     border-radius: 50px;
     box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+section#aplicativos img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.518);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10 rgba(0, 0, 0, 0.233);
+    transition: transform .1s, border 0.2s;
 }
